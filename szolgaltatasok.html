@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szolgáltatások - Hotel Szeleta</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        #header {
+            background-color: #727272;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        #header img {
+            max-width: 150px;
+        }
+        #nav {
+            background-color: #727272;
+            padding: 10px 0;
+        }
+        #nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        #nav ul li {
+            margin: 0 15px;
+        }
+        #nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            transition: background 0.3s;
+        }
+        #nav ul li a:hover {
+            background-color: black;
+            border-radius: 5px;
+        }
+        #main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: black;
+        }
+        .service-section {
+            margin-top: 40px;
+        }
+        .service-item {
+            margin-bottom: 30px;
+        }
+        .service-item h3 {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        .service-item p {
+            line-height: 1.6;
+        }
+        .service-item img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .footer {
+            background-color: #727272;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <img src="logo.png" alt="Hotel Szeleta">
+        <h1>Szolgáltatások</h1>
+        <p>Fedezze fel szállodánk szolgáltatásait</p>
+    </div>
+
+    <div id="nav">
+        <ul>
+            <li><a href="index.html">Főoldal</a></li>
+            <li><a href="rolunk.html">Rólunk</a></li>
+            <li><a href="szolgaltatasok.html">Szolgáltatások</a></li>
+            <li><a href="latnivalok.html">Látnivalók</a></li>
+            <li><a href="galeria.html">Galéria</a></li>
+            <li><a href="arak.html">Árak</a></li>
+            <li><a href="ajanlat.html">Foglalás</a></li>
+            <li><a href="eljutas.html">Eljutás</a></li>
+        </ul>
+    </div>
+
+    <div id="main">
+        <h2>Szállodánk által nyújtott szolgáltatások</h2>
+
+        <div class="service-section">
+            <div class="service-item">
+                <h3>Szauna</h3>
+                <img src="szauna.png" alt="Wellness részleg">
+                <p>A Hotel rendelkezik finn szaunával, melyet 14 és 22 óra között minden szállóvendég díjmentesen használhat. Az 5-6 fő befogadására alkalmas szauna előterében a zuhanyzók és az öltöző szekrények biztosítottak. A bejárat előtt lévő hideg vizes medence merülő medenceként teszi teljesebbé a szaunázás élményét.</p>
+                <p>A finn szauna jótékony hatásai:</p>
+                <ul>
+                    <li>segíti a szervezetet a salakanyagok kiürítésében</li>
+                    <li>hatékony immunerősítő és érregeneráló hatású</li>
+                    <li>a gőzfürdővel ellentétben nem termelődnek, hanem elpusztulnak a baktériumok, vírusok</li>
+                    <li>javítja az anyagcsere folyamatokat</li>
+                    <li>fokozza a szervezet vérellátását</li>
+                    <li>segít a lappangó betegségek felszínre hozásában, legyőzésében</li>
+                </ul>
+            </div>
+
+            <div class="service-item">
+                <h3>Medence</h3>
+                <p>A vízforgatóval felszerelt kültéri medence szezonális jelleggel várja a hűsölésre vágyó vendégeket. Az 5 méter átmérőjű, 1 méter mély medence főleg a gyermekek részére nyújt igazi élményt, de a medence körül elhelyezett napozóágyakon a felnőttek is kellemesen kikapcsolódhatnak a pár méterre lévő Szinva patak halk csobogására.</p>
+                <img src="medence.png" alt="Konferenciaterem">
+            </div>
+
+            <div class="service-item">
+                <h3>Sókamra</h3>
+                <p>Kerékpáronként 5.000- Ft. a kaució, mely a bicikli visszavételekor visszajár, amennyiben az átadáskori állapotnak megfelelően kapjuk vissza a kerékpárt. A kerékpárokat 8 és 20 óra között lehet bérelni. 12. életévét betöltött bérelhet biciklit, de fiatalkorú csak felnőtt kísérővel. Részletek a recepción.</p>
+                <img src="sokamra.png" alt="Sport és szabadidő">
+                <p>A szálloda recepciója alatt található a mesterségesen kialakított „sóbarlang”, mely az egészségre jótékony hatásai mellett, a nyári hónapokban – pinceklímájának köszönhetően – kellemes felfrissülést biztosít. Az ajánlott terápiás időtartam: 30-40 perc/alkalom.</p>
+            </div>
+
+            <div class="service-item">
+                <h3>Kerékpár bérlés</h3>
+                <h3>A kerékpárok bérleti díja 3.000.- Ft./nap(max.: 8:00-20:00-ig) biciklinként.</h3>
+                <img src="kerekpar.png" alt="Családbarát szolgáltatások">
+                <p>Szállodánk családbarát környezetet kínál. Gyermekjátszóterek, családi szobák, valamint különféle gyermekprogramok is rendelkezésre állnak, hogy a legkisebbek is jól érezzék magukat nálunk.</p>
+            </div>
+
+            <div class="service-item">
+                <h3>Pihenőkert-játszótér</h3>
+                <img src="jatszoter.png" alt="Étterem"> <img src="jatszoter2.png" alt=""> <img src="jatszoter3.png" alt="">
+                <p><b>Játszótér:</b> a kertben a gyermekek szórakozására játszóteret alakítottunk ki, ahol csúszda, hinta, valamint homokozó várja őket. A szülőknek 8 fő befogadására alkalmas szanetli van elhelyezve a játszótéren. A balesetek elkerülése érdekében a játszóteret kizárólag 12 éven aluliak vehetik igénybe, szülői felügyelet mellett.</p>
+                <p><b>Pingpong:</b> rendelkezünk pingpongasztallal és a sporthoz szükséges valamennyi eszközökkel.</p>
+                <p><b>Mini foci:</b> a pihenőkertben található a 9×16 m-es mini foci pálya a futball szerelmesei részére.</p>
+                <p><b>Tollaslabda:</b> a kertben tollasozásra is nyílik lehetőség.</p>
+            </div>
+
+            <div class="service-item">
+                <h3>Bababarát</h3>
+                <img src="baba.png" alt="Étterem">
+                <p>Előzetes kérésre díjmentesen biztosítunk a szobákba utazóágyat, illetve fürdetőkádat a babák részére. A reggeliző helyiségben etetőszékek állnak rendelkezésre, valamint mikrohullámú sütő is található a bébi étel melegítésére, amit napközben a recepción is kérhetnek. A szállodai televíziókba – lehetőség szerint – programozva van mesecsatorna.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Hotel Szeleta - Minden jog fenntartva</p>
+    </div>
+
+</body>
+</html>
